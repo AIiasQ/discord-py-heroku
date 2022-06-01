@@ -56,5 +56,5 @@ async def Assemble(ctx):
     else:
         await ctx.send(f'Nie ma wszystkich')
 
-
-bot.run(TOKEN)
+if __name__ == "__main__":
+    bot.run(TOKEN)
